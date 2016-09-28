@@ -1,5 +1,5 @@
 siteTitle="Python in Visual Studio Code"
-linkPrefix = "/gatsby-starter-documentation"
+linkPrefix="/pythonVSCodeDocs"
 docPages = [
   "/docs/jupyter/",
   "/docs/jupyter_getting-started/",

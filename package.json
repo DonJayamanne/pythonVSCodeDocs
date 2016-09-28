@@ -18,7 +18,12 @@
     "underscore.string": "^3.2.2"
   },
   "devDependencies": {
-    "gh-pages": "^0.11.0"
+    "front-matter": "^2.1.0",
+    "gh-pages": "^0.11.0",
+    "highlight.js": "^9.7.0",
+    "markdown-it": "^8.0.0",
+    "markdown-it-replace-link": "^1.0.0",
+    "object-assign": "^4.1.0"
   },
   "keywords": [
     "gatsby"
@@ -28,7 +33,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "gatsby develop",
+    "deployLocalHelp": "export PREFIXLINKS='0' && gatsby build && node deployLocalHelp.js",
+    "deployWebHelp": "export PREFIXLINKS='1' && gatsby build --prefix-links && node deployWebHelp.js",
     "build": "gatsby build",
-    "deploy": "gatsby build --prefix-links && gh-pages -d public"
+    "deployx": "gatsby build --prefix-links && gh-pages -d public",
+    "deploy": "export PREFIXLINKS='0' && gatsby build && node deployLocalHelp.js && export PREFIXLINKS='1' && gatsby build --prefix-links && node deployWebHelp.js"
   }
 }
