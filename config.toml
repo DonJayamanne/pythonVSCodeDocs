@@ -4,5 +4,6 @@ docPages = [
   "/docs/jupyter/",
   "/docs/jupyter_getting-started/",
   "/docs/jupyter_prerequisites/",
+  "/docs/jupyter_configuration/",
   "/docs/jupyter_examples/"
 ]
