@@ -8,6 +8,7 @@ import typography from 'utils/typography'
 import { config } from 'config'
 
 // Import styles.
+import 'css/github.css'
 import 'css/main.css'
 
 const { rhythm, adjustFontSizeTo } = typography
