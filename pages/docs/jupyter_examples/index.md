@@ -2,17 +2,17 @@
 title: Examples
 ---
 
-- [Standard plot (non interactive)](#Standard Plot)
-- Interactive d3 plot
-- Interactive Bokeh plot
-- Latex
-- Inline images
-- IFrame
-- More examples
+- [Standard plot](#Standard-plot)
+- [Interactive Plot using D3js](#Interactive-Plot-using-D3js)
+- [Interactive Plot using Bokeh](#Interactive-Plot-using-Bokeh)
+- [LaTex](#LaTex)
+- [Inline images](#Inline-images)
+- [IFrame](#IFrame)
+- [More examples](#More-examples)
 
 ![Examples](https://raw.githubusercontent.com/DonJayamanne/pythonVSCodeDocs/master/images/jupyter/examples.gif)
 
-### Standard plot
+### <a id="Standard-plot">Standardplot</a>
 - Paste the following code in a python file
 - Execute it (either selecting the code or using the ```Run cell``` code lens).
 - The result is a static graph displayed in the ```Results``` window
@@ -28,7 +28,8 @@ plt.plot(x, np.sin(x))
 plt.show() 
 ```
 
-### [Interactive Plot using D3js](http://mpld3.github.io/)
+### <a id="Interactive-Plot-using-D3js">Interactive Plot using D3js</a>
+[D3js](http://mpld3.github.io/)
 - Paste the following code in a python file
 - Execute it (either selecting the code or using the ```Run cell``` code lens).
 - The result is an interactive displayed in the ```Results``` window
@@ -55,7 +56,8 @@ ax.set_title("D3 Scatter Plot", size=18);
 ```
 
 
-### [Interactive Bokeh graphs](http://bokeh.pydata.org/en/latest/docs/gallery.html)
+### <a id="Interactive-Plot-using-Bokeh">Interactive Plot using Bokeh</a>
+- [Bokeh graphs](http://bokeh.pydata.org/en/latest/docs/gallery.html)
 - Paste the following code in a python file
 - Execute it (either selecting the code or using the ```Run cell``` code lens).
 - The result is an interactive displayed in the ```Results``` window
@@ -82,7 +84,7 @@ p1.circle(x, 3*y, legend="3*sin(x)", color="green")
 show(p1)
 ```
 
-### LaTex
+### <a id="LaTex">LaTex</a>
 ```pytohn
 #%%
 from IPython.display import Latex
@@ -98,21 +100,21 @@ E=m
 \\end{equation}''')
 ```
 
-### Inline images
+### <a id="Inline-images">Inline images</a>
 ```python
 #%%
 from IPython.display import Image
 Image('http://jakevdp.github.com/figures/xkcd_version.png')
 ```
 
-### IFrame
+### <a id="IFrame">IFrame</a>
 ```python
 #%%
 from IPython.core.display import HTML
 HTML("<iframe src='http://www.ncdc.noaa.gov/oa/satellite/satelliteseye/cyclones/pfctstorm91/pfctstorm.html' width='750' height='600'></iframe>")
 ```
 
-### More examples 
+### <a id="More-examples">More examples</a> 
 - Interactive Matplotlib graphs using d3js ([mpld3](http://mpld3.github.io/examples/index.html)) 
 - Interactive [Bokeh graphs](http://bokeh.pydata.org/en/latest/docs/gallery.html) 
 - [LaTex](http://matplotlib.org/users/usetex.html)
