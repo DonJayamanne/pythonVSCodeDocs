@@ -29,7 +29,11 @@ var md = markdownIt({
     if (process.env['PREFIXLINKS'] === '1' && link.indexOf('/docs') === 0) {
       return "/pythonVSCodeDocs" + link;
     }
-    else {
+    else {      
+      // Cache busting
+      if (link.indexOf('') === 0 && link.lastIndexOf('.gif') + 4 === link.length){
+        return link + '?_=' + new Date().getTime().toString();
+      }
       return link;
     }
   }
