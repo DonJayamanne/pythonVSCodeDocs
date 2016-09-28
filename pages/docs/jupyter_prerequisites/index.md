@@ -26,3 +26,5 @@ Before you start using Jupyter with Visual Studio Code you will need to ensure t
     + [Anaconda](https://www.continuum.io/downloads)
     + ```pip install jupyter```
 
+### Getting started
+Once the Prerequisites have been installed and setup you might want to have a look at the [Getting Started](/docs/jupyter_getting-started/) section or the [Examples](/docs/jupyter_examples/) section.
