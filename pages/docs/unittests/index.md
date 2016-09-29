@@ -8,9 +8,9 @@ The following Unit Test frameworks are supported:
 * [PyTest](http://docs.pytest.org/en/latest/)
 
 ### Prerequisites
-**Select and Enable a Test Framework**  
-- If using [Nose](http://nose.readthedocs.io/en/latest/) or [PyTest](http://docs.pytest.org/en/latest/), then ensure this test framework is installed in the [currently configured Python interpreter](https://github.com/DonJayamanne/pythonVSCode/wiki/Python-Path-and-Version#python-version-used-for-intellisense-autocomplete-linting-formatting-etc).
-- If not installed [errors would be displayed](#Troubleshooting (Errors)) in the ```Python Test Log``` output panel. 
+**<a id="Select-and-Enable-a-Test-Framework"></a>Select and Enable a Test Framework**  
+- If using [Nose](http://nose.readthedocs.io/en/latest/) or [PyTest](http://docs.pytest.org/en/latest/), then ensure this test framework is installed in the [currently configured Python interpreter](/docs/python-path/).
+- If not installed errors would be displayed in the ```Python Test Log``` output panel. 
 
 **Select and Enable a Test Framework**  
 UnitTests are turned off by default. Unit Testing of Python code is supported by enabling one of the above Unit Tests via the [user or workspace settings files (settings.json)](https://code.visualstudio.com/docs/customization/userandworkspace#_creating-user-and-workspace-settings), as follows: 
@@ -36,8 +36,8 @@ Tests can be run (executed) a number of ways.
 
 ![Discover Tests](https://github.com/DonJayamanne/pythonVSCode/blob/master/images/tests/options.png?raw=true)
 
-### [More Options](https://github.com/DonJayamanne/pythonVSCode/wiki/Unitest:-Advanced-Options)
+### [More Options](/docs/unittests_more-options/)
 
-### [unittest Framework](https://github.com/DonJayamanne/pythonVSCode/wiki/unitest-(Standard-Unit-testing)-Framework)
-### [pytest Framework](https://github.com/DonJayamanne/pythonVSCode/wiki/pytest-Framework)
-### [nose Framework](https://github.com/DonJayamanne/pythonVSCode/wiki/nose-Framework)
+### [unittest Framework](/docs/unittests_unittest-framework/)
+### [pytest Framework](/docs/unittests_pytest-framework/)
+### [nose Framework](/docs/unittests_nose-framework/)

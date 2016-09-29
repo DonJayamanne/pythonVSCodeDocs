@@ -9,7 +9,7 @@ Look at the debugger console for any error messages displayed.
 Look at the [Debugger Tools](https://github.com/Microsoft/vscode/wiki/How-to-Contribute#using-the-chrome-developer-tools) console output for any errors.
 
 **Cause: The path to the python executable is incorrect**   
-Solution: [Configure the path to the python executable in the launch.json](https://github.com/DonJayamanne/pythonVSCode/wiki/Python-Path-and-Version#python-version-used-for-debugging)   
+Solution: [Configure the path to the python executable in the launch.json](/docs/python-path/#Python-Version-used-for-debugging)   
 Remember to re-start VS Code once done (this won't be necessary in a future release).  
 
 **Cause: Invalid expressions in watch window**   
@@ -34,4 +34,4 @@ Solution: Clear all expressions from the debugger Watch window and start debuggi
 Capturing user input while debugging is only possible when using the **Python Console App** debug configuration.
 
 **Cause: Visual Studio Code Debug output window doesn't support capturing input from the user**   
-Solution: [Select the **Python Console App** debug configuration](https://github.com/DonJayamanne/pythonVSCode/wiki/Capture-User-Input-via-input-raw_input)
+Solution: [Select the **Python Console App** debug configuration](/docs/debugging_capture-user-input/)

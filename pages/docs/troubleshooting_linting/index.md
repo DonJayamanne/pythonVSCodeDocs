@@ -30,10 +30,10 @@ title: Linting
 Listing could fail due to a number of reasons. Please check each of the following.
 
 **Cause: The path to the python executable is incorrect**   
-Solution: [Configure the path to the python executable in the settings.json](https://github.com/DonJayamanne/pythonVSCode/wiki/Python-Path-and-Version#python-path-and-version)   
+Solution: [Configure the path to the python executable in the settings.json](/docs/python-path/)   
 
 **Cause: The linter has not been installed in the Python environment being used**   
-Solution: Identify the Python environment (executable) [configured in settings.json](https://github.com/DonJayamanne/pythonVSCode/wiki/Python-Path-and-Version#python-path-and-version). Next install the linter(s) against this Python environment (use the corresponding Pip).
+Solution: Identify the Python environment (executable) [configured in settings.json](/docs/python-path/). Next install the linter(s) against this Python environment (use the corresponding Pip).
 
 **Cause: The Path to the linter is incorrect**   
 Solution: If you have provided a custom path to the linter in settings.json, then ensure this file path exist.
@@ -47,4 +47,4 @@ Defining command line arguments in this manner is not supported, instead it will
 ```json
 "python.linting.pylintArgs": ["--load-plugins", "pylint_django"]
 ```
-For further information on configuring Linters can be found [here](https://github.com/DonJayamanne/pythonVSCode/wiki/Linting).
+For further information on configuring Linters can be found [here](/docs/linting/).

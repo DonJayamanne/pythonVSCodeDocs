@@ -5,7 +5,7 @@ title: unittest
 This section outlines the details necessary to get you up and started with using the python unittest testing framework with Visual Studio Code.
 
 ### Enable unittest framework   
-Assign the value ```true``` against the setting ```python.unitTest.unittestEnabled``` as outlined [here](https://github.com/DonJayamanne/pythonVSCode/wiki/UnitTests#select-and-enable-a-test-framework-1).  
+Assign the value ```true``` against the setting ```python.unitTest.unittestEnabled``` as outlined [here](/docs/unittests/#Select-and-Enable-a-Test-Framework/).  
 Ensure all other test frameworks have been disabled (i.e. have the value ```false```). 
 
 ### Configuration Options

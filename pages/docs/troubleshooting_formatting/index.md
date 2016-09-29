@@ -6,10 +6,10 @@ title: Formatting
 Formatting could fail due to a number of reasons. Please check each of the following.
 
 **Cause: The path to the python executable is incorrect**   
-Solution: [Configure the path to the python executable in the settings.json](https://github.com/DonJayamanne/pythonVSCode/wiki/Python-Path-and-Version#python-path-and-version)   
+Solution: [Configure the path to the python executable in the settings.json](/docs/python-path/)   
 
 **Cause: The formatter has not been installed in the Python environment being used**   
-Solution: Identify the Python environment (executable) [configured in settings.json](https://github.com/DonJayamanne/pythonVSCode/wiki/Python-Path-and-Version#python-path-and-version). Next install the formatter against this Python environment (use the corresponding Pip).
+Solution: Identify the Python environment (executable) [configured in settings.json](/docs/python-path/). Next install the formatter against this Python environment (use the corresponding Pip).
 
 **Cause: The Path to the formatter is incorrect**   
 Solution: If you have provided a custom path to the formatter in settings.json, then ensure this file path exist.
@@ -23,4 +23,4 @@ Defining command line arguments in this manner is not supported, instead it will
 ```json
 "python.formatting.yapfArgs": ["--style", "{based_on_style: chromium, indent_width: 20}"]
 ```
-For further information on configuring Formatters can be found [here](https://github.com/DonJayamanne/pythonVSCode/wiki/Formatting).
+For further information on configuring Formatters can be found [here](/docs/formatting/).

@@ -8,7 +8,7 @@ The files in the [hello_world](https://github.com/GoogleCloudPlatform/python-doc
 
 You can skip the steps and go directly to a simple video.
 
-### Solution:
+## Solution:
 The solution implemented to enable debugging of Google App Engine applications is fairly simple.   
 We launch the Google App Engine in a particular mode that will allow us to use VS Code to attach to the code.
 This is where the [ptvsd](https://pypi.python.org/pypi/ptvsd) library comes in. This library contains the debug server that will be started by a startup program named pydev_startup.py that we will create and execute via the Google App Engine.
@@ -17,11 +17,11 @@ We launch Google App Engine with the necessary arguments by creating a task for 
 You could optionally launch Google App engine with these arguments from a terminal (command line) window as well.  
 Once the debug server has started, we simply attach to this debug server.
 
-### How to debug Google App Engine
+## How to debug Google App Engine
 ![Google App Engine Debugging](https://raw.githubusercontent.com/DonJayamanne/pythonVSCode/master/images/debugGAE.gif)
   
 
-### Detailed steps as follows:
+## Detailed steps as follows:
 - **Step 1:** Open the application directory in VS Code 
 - **Step 2:** Download the [ptvsd](https://pypi.python.org/pypi/ptvsd) library and extract the pdvsd directory into your working directory.  
 You should have a sub directory named 'ptvsd' under your working directory.     

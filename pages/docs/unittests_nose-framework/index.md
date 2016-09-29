@@ -5,11 +5,11 @@ title: nose
 This section outlines the details necessary to get you up and started with using the [nose](http://nose.readthedocs.io/en/latest/) testing framework with Visual Studio Code.
 
 ### Enable [nose](http://nose.readthedocs.io/en/latest/) framework   
-Assign the value ```true``` against the setting ```python.unitTest.nosetestsEnabled ``` as outlined [here](https://github.com/DonJayamanne/pythonVSCode/wiki/UnitTests#select-and-enable-a-test-framework-1).  
+Assign the value ```true``` against the setting ```python.unitTest.nosetestsEnabled ``` as outlined [here](/docs/unittests/#Select-and-Enable-a-Test-Framework/).  
 Ensure all other test frameworks have been disabled (i.e. have the value ```false```). 
 
 ### Install [nose](http://nose.readthedocs.io/en/latest/)   
-Ensure [nose](http://nose.readthedocs.io/en/latest/) has been installed in the [currently configured python environment](https://github.com/DonJayamanne/pythonVSCode/wiki/Python-Path-and-Version#python-version-used-for-intellisense-autocomplete-linting-formatting-etc).
+Ensure [nose](http://nose.readthedocs.io/en/latest/) has been installed in the [currently configured python environment](/docs/python-path/).
 
 ### Configuration Options
 **Command line options**  

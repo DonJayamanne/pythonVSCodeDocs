@@ -1,12 +1,15 @@
 ---
 title: Miscellaneous
 ---
+- [Select an Interpreter](#Select-an-Interpreter)
+- [Execute in Python Terminal](#Execute-in-Python-Terminal)
 
-### Select an Interpreter
+
+## <a id="Select-an-Interpreter"></a>Select an Interpreter
 The extension now exposes a command that will display a list of known (automatically discovered) interpreters. Selecting an item from this interpreter will automatically configure your workspace settings file ```settings.json``` to make use of this interpreter.  
 This now frees you from having to manually open the ```settings.json``` file and make the necessary changes.  
 
-**How are the interpreters discovered?** 
+**How are the interpreters discovered?**   
 - Standard paths such as ```/usr/local/bin, /usr/sbin, /sbin, C:\\Python2.7```, etc. will be searched for interpreters 
 - Virtual environments located under the workspace (project) directory will be searched  
 - Conda environments will be listed
@@ -23,7 +26,7 @@ If the interpreter you are looking for is not listed here, then please enter is 
 ![Select Interpreter](https://github.com/DonJayamanne/pythonVSCode/blob/master/images/misc/commands.png?raw=true)
 ![Select Interpreter](https://github.com/DonJayamanne/pythonVSCode/blob/master/images/misc/interpreters.png?raw=true)
 
-### Execute in Python Terminal
+### <a id="Execute-in-Python-Terminal"></a>Execute in Python Terminal
 The extension now exposes a command that allows you to:
 - Execute the currently opened file in a python terminal window
 - Execute a file from the explorer in a python terminal window

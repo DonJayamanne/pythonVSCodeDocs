@@ -13,11 +13,11 @@ This section outlines the details necessary to get you up and started with using
 - Rich plugin architecture, with over 150+ external plugins and thriving community; 
 
 ### Enable [pytest](http://docs.pytest.org/en/latest/) framework   
-Assign the value ```true``` against the setting ```python.unitTest.pyTestEnabled ``` as outlined [here](https://github.com/DonJayamanne/pythonVSCode/wiki/UnitTests#select-and-enable-a-test-framework-1).  
+Assign the value ```true``` against the setting ```python.unitTest.pyTestEnabled ``` as outlined [here](/docs/unittests/#Select-and-Enable-a-Test-Framework/).  
 Ensure all other test frameworks have been disabled (i.e. have the value ```false```). 
 
 ### Install [pytest](http://docs.pytest.org/en/latest/)   
-Ensure [pytest](http://docs.pytest.org/en/latest/) has been installed in the [currently configured python environment](https://github.com/DonJayamanne/pythonVSCode/wiki/Python-Path-and-Version#python-version-used-for-intellisense-autocomplete-linting-formatting-etc).
+Ensure [pytest](http://docs.pytest.org/en/latest/) has been installed in the [currently configured python environment](/docs/python-path/).
 
 ### Configuration Options
 **Command line options**  
