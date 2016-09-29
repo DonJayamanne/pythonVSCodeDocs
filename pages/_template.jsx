@@ -10,6 +10,7 @@ import { config } from 'config'
 // Import styles.
 import 'css/github.css'
 import 'css/main.css'
+import 'css/gatsby.css'
 
 const { rhythm, adjustFontSizeTo } = typography
 

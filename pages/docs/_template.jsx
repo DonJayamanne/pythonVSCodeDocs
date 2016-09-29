@@ -40,6 +40,7 @@ module.exports = React.createClass({
         title: page.data.title,
         path: page.path,
       }
+      console.log(JSON.stringify(Object.keys(page.data)));
       if (!Array.isArray(grandChildPages[parentPagePath])) {
         grandChildPages[parentPagePath] = [];
       }
@@ -77,9 +78,6 @@ module.exports = React.createClass({
           const isThisChildActive = prefixLink(childPath) === this.props.location.pathname
           return (<li
             key={childPath}
-            style={{
-              marginBottom: rhythm(1 / 2),
-            }}
             >
             <Link
               to={prefixLink(childPath) }
@@ -92,7 +90,7 @@ module.exports = React.createClass({
           </li>);
         });
         childPagesForThis = (
-          <ul style={{ listStyle: 'none', marginTop: '0.5em' }}>
+          <ul className='childItems'>
             {liItems}
           </ul>
         );
