@@ -51,7 +51,7 @@ module.exports = React.createClass({
         key={prefixLink(child.path) }
         value={prefixLink(child.path) }
         >
-        {child.title}
+        {child.path.indexOf('_') > 0 ? '    -> ' + child.title : child.title}
       </option>
 
     )
