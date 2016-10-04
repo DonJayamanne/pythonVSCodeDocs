@@ -40,7 +40,7 @@ If this is to be altered, then change the following configuration settings eithe
 "python.linting.maxNumberOfProblems": 50
 ```
 
-### Pylint
+### <a id="pylint"></a>Pylint
 As mentioned previously, this is the default linter used by the extension.    
 
 **Installing Pylint**

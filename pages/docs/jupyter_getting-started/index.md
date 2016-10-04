@@ -71,3 +71,6 @@ The purpose of each of these commands should be fairly obvious.
 Note: You can always configure shutcut keys for each of these commands. [See here](https://code.visualstudio.com/Docs/customization/keybindings#_customizing-shortcuts).
 
 ![Cell Commands](https://raw.githubusercontent.com/DonJayamanne/pythonVSCodeDocs/master/images/jupyter/cellCommands.gif)
+
+### Shortcuts
+You can always configure shutcut keys for each of these commands. [See here](https://code.visualstudio.com/Docs/customization/keybindings#_customizing-shortcuts).
