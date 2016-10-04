@@ -3,9 +3,9 @@ title: Linting
 ---
 
 Linting within the extension is supported on the following:
-* [Pylint](#pylint) (this is the default linter used)
-* [Pep8](#pep8)
-* [Flake8](#flake8)
+* [Pylint](#Pylint) (this is the default linter used)
+* [Pep8](#Pep8)
+* [Flake8](#Flake8)
 * [pydocstyle](#pydocstyle)
 * [prospector](#prospector)
 
@@ -40,7 +40,7 @@ If this is to be altered, then change the following configuration settings eithe
 "python.linting.maxNumberOfProblems": 50
 ```
 
-### <a id="pylint"></a>Pylint
+### <a id="Pylint"></a>Pylint
 As mentioned previously, this is the default linter used by the extension.    
 
 **Installing Pylint**
@@ -84,7 +84,7 @@ Custom plugins such as pylint plugin for Django can be easily used by modifying 
 "python.linting.pylintArgs": ["--load-plugins", "pylint_django"]
 ```
 
-### Pep8
+### <a id="Pep8"></a>Pep8
 As mentioned previously, usage of this linter is turned off by the extension.    
 
 **Installing Pep8**
@@ -110,7 +110,7 @@ If this is not the case or you wish to use another version of pep8, all you need
 The options are read from the [pep8] section of the tox.ini file or the setup.cfg file located in any parent folder of the path(s) being processed.   
 For further details refer the following [Options](http://pep8.readthedocs.org/en/latest/intro.html).
 
-### Flake8
+### <a id="Flake8"></a>Flake8
 As mentioned previously, usage of this linter is turned off by the extension.    
 
 **Installing Flake8**

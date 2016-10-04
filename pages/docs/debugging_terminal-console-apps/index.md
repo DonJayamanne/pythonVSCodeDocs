@@ -5,10 +5,10 @@ title: Capture User Input
 Capturing user input via Console Application whist debugging a Python application is possible when using a Terminal (console window) to capture the input.
 
 There are two options for using terminals in Visual Studio Code when debugging: 
-- Option 1: Use the Visual Studio Code Terminal (integrated terminal)  
-- Option 2: Use the native (OS) Terminal (external terminal) 
+- [Option 1](#Option-1): Use the Visual Studio Code Terminal (integrated terminal)  
+- [Option 2](#Option-2): Use the native (OS) Terminal (external terminal) 
 
-### Option 1
+### <a id="Option-1"></a>Option 1
 * Open the file to be debugged 
 * From the debug configuration select **Integrated Terminal/Console** 
 * Start debugging 
@@ -18,7 +18,7 @@ Note: All debug output will now be displayed in the Terminal/Console Window and 
 
 ![Sample](https://raw.githubusercontent.com/DonJayamanne/pythonVSCode/master/images/debug/integratedDebugger.gif)
 
-### Option 2
+### <a id="Option-2"></a>Option 2
 * Open the file to be debugged 
 * From the debug configuration select **External Terminal/Console** 
 * Start debugging 

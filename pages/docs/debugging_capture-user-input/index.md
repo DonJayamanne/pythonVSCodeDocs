@@ -3,10 +3,10 @@ title: Terminal (Console) Apps
 ---
 
 There are two options for using terminals in Visual Studio Code when debugging: 
-- Option 1: Use the Visual Studio Code Terminal (integrated terminal)  
-- Option 2: Use the native (OS) Terminal (external terminal) 
+- [Option 1](#Option-1): Use the Visual Studio Code Terminal (integrated terminal)  
+- [Option 2](#Option-2): Use the native (OS) Terminal (external terminal) 
 
-### Option 1: Integrated Terminal 
+### <a id="Option-1"></a>Option 1: Integrated Terminal 
 * Open the file to be debugged 
 * From the debug configuration select **Integrated Terminal/Console** 
 * Start debugging 
@@ -16,7 +16,7 @@ Note: All debug output will now be displayed in the Terminal/Console Window and 
 
 ![Sample](https://raw.githubusercontent.com/DonJayamanne/pythonVSCode/master/images/debug/integratedDebugger.gif)
 
-### Option 2: External Terminal 
+### <a id="Option-2"></a>Option 2: External Terminal 
 * Open the file to be debugged 
 * From the debug configuration select **External Terminal/Console** 
 * Start debugging 
