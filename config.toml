@@ -38,5 +38,6 @@ docPages = [
   "/docs/troubleshooting_linting/",
   "/docs/troubleshooting_formatting/",
   "/docs/troubleshooting_intellisense/",
+  "/docs/troubleshooting_jupyter/",
   "/docs/roadmap/"
 ]
