@@ -40,7 +40,7 @@ module.exports = React.createClass({
         title: page.data.title,
         path: page.path,
       }
-      console.log(JSON.stringify(Object.keys(page.data)));
+      
       if (!Array.isArray(grandChildPages[parentPagePath])) {
         grandChildPages[parentPagePath] = [];
       }
