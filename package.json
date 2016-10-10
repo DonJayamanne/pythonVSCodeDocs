@@ -36,7 +36,6 @@
     "deployLocalHelp": "export PREFIXLINKS='0' && gatsby build && node deployLocalHelp.js",
     "deployWebHelp": "export PREFIXLINKS='1' && gatsby build --prefix-links && node deployWebHelp.js",
     "build": "gatsby build",
-    "deployx": "gatsby build --prefix-links && gh-pages -d public",
     "deploy": "export PREFIXLINKS='0' && gatsby build && node deployLocalHelp.js && export PREFIXLINKS='1' && gatsby build --prefix-links && node deployWebHelp.js"
   }
 }
