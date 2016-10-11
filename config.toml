@@ -15,6 +15,7 @@ docPages = [
   "/docs/debugging_debugging-pytest/",
   "/docs/debugging_debugging-flask/",
   "/docs/debugging_sudo-root-privileges/",
+  "/docs/debugging_django/",
   "/docs/unittests/",
   "/docs/unittests_more-options/",
   "/docs/unittests_unittest-framework/",
