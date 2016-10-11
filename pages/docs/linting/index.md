@@ -6,6 +6,7 @@ Linting within the extension is supported on the following:
 * [Pylint](#Pylint) (this is the default linter used)
 * [Pep8](#Pep8)
 * [Flake8](#Flake8)
+* [mypy](#mypy)
 * [pydocstyle](#pydocstyle)
 * [prospector](#prospector)
 
@@ -136,3 +137,31 @@ If this is not the case or you wish to use another version of pep8, all you need
 The user settings are read from the ~/.config/flake8 file (or the ~/.flake8 file on Windows).    
 At the project level, a tox.ini file or a setup.cfg file is read if present. Only the first file is considered. If this file does not have a [flake8] section, no project specific configuration is loaded.   
 For further details refer [Configuration](http://flake8.readthedocs.org/en/latest/config.html).
+
+###mypy
+As mentioned previously, usage of this linter is turned off by the extension.    
+
+**Installing mypy**
+For this to work properly ensure mypy is installed locally.    
+You can easily install mypy as follows:    
+```pip3 install mypy-lang```
+
+**Enabling/Disabling mypy**
+If the flake8 linter is to be used by the extension, then enable it as follows either in the User or Workspace settings file:    
+```json
+"python.linting.mypyEnabled": true
+```
+
+**Custom Path**
+This is generally unnecessary. As the Extension will resolve the path to the formatter based on Python executable being used or configured in python.pythonPath of settings.json. If this cannot be found, then the formatter will be resolved based on the current environment Path settings.
+
+If this is not the case or you wish to use another version of mypy, all you need to do is configure the path as follows either in the User or Workspace settings file:    
+```json
+"python.linting.mypyPath": "c:/customPath/mypy.exe"
+```
+
+**Custom Configuration**
+Custom command line arguments can be passed into mypy just as with the other linters using the setting:  
+```json
+"python.linting.mypyArgs": []
+```
