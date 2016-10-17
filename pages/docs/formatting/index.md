@@ -2,9 +2,13 @@
 title: Formatting
 ---
 
-## Default Formatter
+### Default Formatter
 Code formatting is supported using either one of yapf or autopep8.   
 The default code format provider is autopep8.   
+
+### a
+Formatting the source code as and when you save the contents of the file is supported.  
+Enabling this requires configuring the setting ```"editor.formatOnSave": true``` as identified [here](https://code.visualstudio.com/updates#_format-on-save). 
 
 #### Paths  
 All samples provided here are for windows.   
