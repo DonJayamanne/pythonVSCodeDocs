@@ -48,6 +48,25 @@ This setting points to the fully aualified path of the python program to be debu
 The recommended value for this setting is ```${file}```.   
 Resulting in the debugging of the active file in the editor.  
 
+Entering the name of the Python file is also supported. However you need to ensure the file name is fully qualitified path. You have two options:  
+- **Option 1:** Provide the fully qualified path as follows
+```json
+{
+    "name": "Python",
+
+    "program": "/Users/xxx/Projects/PokemonGo-Bot/pokemongo_bot/event_handlers/__init__.py",
+    "cwd": "${workspaceRoot}",
+```
+- **Option 2:** Provide the fully qualified path as follows
+Assuming your workspace root is ```/Users/xxx/Projects/PokemonGo-Bot```
+```json
+{
+    "name": "Python",
+
+    "program": "${workspaceRoot}/pokemongo_bot/event_handlers/__init__.py",
+    "cwd": "${workspaceRoot}",
+```
+
 ### pythonPath
 This setting points to the python interpreter to be used for debugging purposes.   
 The default value of this setting is "${config.python.pythonPath}", resulting in the use of the python interpreter configured in settings.json.   
