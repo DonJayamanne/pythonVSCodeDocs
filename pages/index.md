@@ -71,7 +71,7 @@ The debugging experience provided is unparalleled. You could debug almost any ty
 - Executing line, selected code or cells against a kernel
 - Grouping blocks of code into cells in the editor
 - Managing kernels (restart, interrupt, shutdown or selecting another kernel)
-- Viewing results in Visual Studio Code (interactive graphs, laTex, SVG, images, etc)
+- Viewing results in Visual Studio Code (interactive graphs, LaTeX, SVG, images, etc)
 
 ### Miscellaneous features that make this a great Python development IDE
 - Auto-indenting as you type

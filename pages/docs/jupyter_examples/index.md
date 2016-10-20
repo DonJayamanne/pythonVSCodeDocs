@@ -5,7 +5,7 @@ title: Examples
 - [Standard plot](#Standard-plot)
 - [Interactive Plot using D3js](#Interactive-Plot-using-D3js)
 - [Interactive Plot using Bokeh](#Interactive-Plot-using-Bokeh)
-- [LaTex](#LaTex)
+- [LaTeX](#LaTeX)
 - [Inline images](#Inline-images)
 - [IFrame](#IFrame)
 - [More examples](#More-examples)
@@ -83,8 +83,8 @@ p1.circle(x, 3*y, legend="3*sin(x)", color="green")
 show(p1)
 ```
 
-### <a id="LaTex">LaTex</a>
-- Check here for more info on [LaTex](http://matplotlib.org/users/usetex.html)
+### <a id="LaTeX">LaTeX</a>
+- Check here for more info on [LaTeX](http://matplotlib.org/users/usetex.html)
 
 ```pytohn
 #%%
@@ -120,4 +120,4 @@ HTML("<iframe src='http://www.ncdc.noaa.gov/oa/satellite/satelliteseye/cyclones/
 ### <a id="More-examples">More examples</a> 
 - Interactive Matplotlib graphs using d3js ([mpld3](http://mpld3.github.io/examples/index.html)) 
 - Interactive [Bokeh graphs](http://bokeh.pydata.org/en/latest/docs/gallery.html) 
-- [LaTex](http://matplotlib.org/users/usetex.html)
+- [LaTeX](http://matplotlib.org/users/usetex.html)

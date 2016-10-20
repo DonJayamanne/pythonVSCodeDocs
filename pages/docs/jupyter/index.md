@@ -11,7 +11,7 @@ More information on Jupyter (IPython) can be found [here](https://jupyter.readth
 - Running a block of code (cell) in a Kernel
 - Restart, Interrupt and Shutdown a kernel
 - Selecting a kernel
-- Viewing output within Visual Studio Code (Images, Html, Graphs, Latex, SVG, and more)
+- Viewing output within Visual Studio Code (Images, Html, Graphs, LaTeX, SVG, and more)
 
 ### Getting Started
 - Before using Jupyter (IPython), you will need to ensure the [prerequisites](/docs/jupyter_prerequisites/) are installed and setup.
