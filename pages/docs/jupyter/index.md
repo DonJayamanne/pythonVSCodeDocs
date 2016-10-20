@@ -3,6 +3,7 @@ title: Jupyter (IPython)
 ---
 
 You can now run Python code directly in a Jupyter (IPython) kernel.
+More information on Jupyter (IPython) can be found [here](https://jupyter.readthedocs.io/en/latest/ipython/content-ipython.html) 
 
 ### Features
 - Running a line of Python code in a Kernel
