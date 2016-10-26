@@ -3,7 +3,7 @@ title: Welcome to Python for Visual Studio Code
 ---
 
 
-Python for Visual Studio Code is an extension for Visual Studio which aims at providing you with the best python development environment and experience possible. The extension is built for the Visual Studio Code IDE that is built from the ground up using Open Source technologies such as NodeJs.
+Python for Visual Studio Code is an extension for Visual Studio Code which aims at providing you with the best python development environment and experience possible. The extension is built for the Visual Studio Code IDE that is built from the ground up using Open Source technologies such as NodeJs.
 
 ![Preview](https://raw.githubusercontent.com/DonJayamanne/pythonVSCode/master/images/general.gif)  
 
