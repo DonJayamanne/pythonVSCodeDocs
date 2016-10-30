@@ -13,10 +13,11 @@ Ensure all other test frameworks have been disabled (i.e. have the value ```fals
 The default pattern used to match test files is ```test*.py```. 
 This can be configured as follows:  
 - Open the user or workspace settings (settings.json) 
-- Add the configuration item (```"-p *_test.py"```) if not found (else alter it as follows): 
+- Add the configuration item (```"-p", "*_test.py"```) if not found (else alter it as follows):
 ```json
     "python.unitTest.unittestArgs": [
-        "-p *_test.py"
+        "-p",
+        "*_test.py"
     ],
 ```  
 Note: 
@@ -45,11 +46,12 @@ This can be configured as follows:
 This is the directory to start the test discovery (defaults to the project/workspace root directory).  
 This can be configured as follows:  
 - Open the user or workspace settings (settings.json) 
-- Add the configuration item (```"-s ./tests"```) if not found (else alter it as follows): 
+- Add the configuration item (```"-s", "./tests"```) if not found (else alter it as follows):
 ```json
     "python.unitTest.unittestArgs": [
         "-v",
-        "-s ./tests"
+        "-s",
+        "./tests"
     ],
 ```  
 Note: 
