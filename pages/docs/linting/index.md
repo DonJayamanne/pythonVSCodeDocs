@@ -139,7 +139,7 @@ The user settings are read from the ~/.config/flake8 file (or the ~/.flake8 file
 At the project level, a tox.ini file or a setup.cfg file is read if present. Only the first file is considered. If this file does not have a [flake8] section, no project specific configuration is loaded.   
 For further details refer [Configuration](http://flake8.readthedocs.org/en/latest/config.html).
 
-###mypy
+### <a id="mypy"></a>mypy
 As mentioned previously, usage of this linter is turned off by the extension.    
 
 **Installing mypy**
@@ -166,7 +166,7 @@ Custom command line arguments can be passed into mypy just as with the other lin
 ```json
 "python.linting.mypyArgs": []
 ```
-###pylama
+### <a id="pylama"></a>pylama
 As mentioned previously, usage of this linter is turned off by the extension.    
 
 **Installing mypy**
