@@ -7,6 +7,7 @@ Linting within the extension is supported on the following:
 * [Pep8](#Pep8)
 * [Flake8](#Flake8)
 * [mypy](#mypy)
+* [pylama](#pylama)
 * [pydocstyle](#pydocstyle)
 * [prospector](#prospector)
 
@@ -147,7 +148,7 @@ You can easily install mypy as follows:
 ```pip3 install mypy-lang```
 
 **Enabling/Disabling mypy**
-If the flake8 linter is to be used by the extension, then enable it as follows either in the User or Workspace settings file:    
+If the mypy linter is to be used by the extension, then enable it as follows either in the User or Workspace settings file:    
 ```json
 "python.linting.mypyEnabled": true
 ```
@@ -164,4 +165,31 @@ If this is not the case or you wish to use another version of mypy, all you need
 Custom command line arguments can be passed into mypy just as with the other linters using the setting:  
 ```json
 "python.linting.mypyArgs": []
+```
+###pylama
+As mentioned previously, usage of this linter is turned off by the extension.    
+
+**Installing mypy**
+For this to work properly ensure mypy is installed locally.    
+You can easily install pylama as follows:    
+```pip install pylama```
+
+**Enabling/Disabling pylama**
+If the pylama linter is to be used by the extension, then enable it as follows either in the User or Workspace settings file:    
+```json
+"python.linting.pylamaEnabled": true
+```
+
+**Custom Path**
+This is generally unnecessary. As the Extension will resolve the path to the formatter based on Python executable being used or configured in python.pythonPath of settings.json. If this cannot be found, then the formatter will be resolved based on the current environment Path settings.
+
+If this is not the case or you wish to use another version of mypy, all you need to do is configure the path as follows either in the User or Workspace settings file:    
+```json
+"python.linting.pylamaPath": "c:/customPath/pylama.exe"
+```
+
+**Custom Configuration**
+Custom command line arguments can be passed into pylama just as with the other linters using the setting:  
+```json
+"python.linting.pylamaArgs": []
 ```
