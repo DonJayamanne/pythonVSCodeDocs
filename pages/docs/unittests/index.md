@@ -7,6 +7,8 @@ The following Unit Test frameworks are supported:
 * [Nose](http://nose.readthedocs.io/en/latest/)
 * [PyTest](http://docs.pytest.org/en/latest/)
 
+![Unit Tests](https://raw.githubusercontent.com/DonJayamanne/pythonVSCodeDocs/master/images/unittest.gif)
+
 ### Prerequisites
 **<a id="Select-and-Enable-a-Test-Framework"></a>Select and Enable a Test Framework**  
 - If using [Nose](http://nose.readthedocs.io/en/latest/) or [PyTest](http://docs.pytest.org/en/latest/), then ensure this test framework is installed in the [currently configured Python interpreter](/docs/python-path/).
