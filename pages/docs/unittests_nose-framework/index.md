@@ -18,7 +18,9 @@ Command line options for the nose can be passed by adding the necessary options 
 ```json
     "python.unitTest.noseTestArgs": [
         "--stop",
-        "--match=REGEX"
+        "--match=REGEX", 
+        "--where", 
+        "tests/"
     ],
 ```  
 Note: 
