@@ -18,7 +18,7 @@ I.e. this is necessary to ensure we have the same line numbers on the server and
 5. Open the local script and add an entry into your launch.json as follows:
 ```json
         {
-            "name": "remote",
+            "name": "Attach (Remote Debug)",
             "type": "python",
             "request": "attach",
             "localRoot": "${workspaceRoot}",
