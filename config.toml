@@ -33,6 +33,7 @@ docPages = [
   "/docs/jupyter_examples/",
   "/docs/miscellaneous/",
   "/docs/contribution/",
+  "/docs/workspaceSymbols/",
   "/docs/troubleshooting/",
   "/docs/troubleshooting_debugger/",
   "/docs/troubleshooting_virtual-environments/",
