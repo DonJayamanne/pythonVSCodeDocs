@@ -73,6 +73,11 @@ The debugging experience provided is unparalleled. You could debug almost any ty
 - Managing kernels (restart, interrupt, shutdown or selecting another kernel)
 - Viewing results in Visual Studio Code (interactive graphs, LaTeX, SVG, images, etc)
 
+### Data Science (PySpark)
+- Start a PySpark project in a folder
+- Ctrl+Shift+P to activate command "Python: Update Workspace PySpark Libraries", this enables intellisense
+- Debug PySpark code locally using PySpark debug option
+
 ### Miscellaneous features that make this a great Python development IDE
 - Auto-indenting as you type
 - Code Snippets
