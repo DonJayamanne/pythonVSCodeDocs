@@ -18,7 +18,7 @@ More information on Apache Spark can be found [here](http://spark.apache.org/doc
 - Ctrl+Shift+P to activate command "Python: Update Workspace PySpark Libraries", this enables intellisense   
 - Debug PySpark code locally using PySpark debug option
     
-![Code & Debug](https://raw.githubusercontent.com/DonJayamanne/pythonVSCode/master/images/pyspark.gif)
+![Code & Debug](https://raw.githubusercontent.com/DonJayamanne/pythonVSCodeDocs/master/images/pyspark.gif)
 
 
 
