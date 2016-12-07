@@ -169,8 +169,8 @@ Custom command line arguments can be passed into mypy just as with the other lin
 ### <a id="pylama"></a>pylama
 As mentioned previously, usage of this linter is turned off by the extension.    
 
-**Installing mypy**
-For this to work properly ensure mypy is installed locally.    
+**Installing pylama**
+For this to work properly ensure  pylama is installed locally.    
 You can easily install pylama as follows:    
 ```pip install pylama```
 
