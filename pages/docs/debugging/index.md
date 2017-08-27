@@ -28,7 +28,7 @@ Debugging a standard python application is possible by adding the standard confi
 {
     "name": "Python",
     "type": "python",
-    "pythonPath":"${config.python.pythonPath}", 
+    "pythonPath":"${config:python.pythonPath}", 
     "request": "launch",
     "stopOnEntry": true,
     "console": "none",
