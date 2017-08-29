@@ -19,7 +19,8 @@ If this is necessary, please proceed as follows:
             "debugOptions": [
               "WaitOnAbnormalExit",
               "WaitOnNormalExit",
-              "RedirectOutput"
+              "RedirectOutput",
+              "DebugStdLib"
             ]
           },
 ```
